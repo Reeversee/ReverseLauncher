@@ -3,6 +3,16 @@
 	"EngineAssociation": "{A165FCFA-4202-E74E-FEEF-C3A5C4A5C864}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "ReverseLauncher_Beta",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ActorLayerUtilities",
@@ -393,6 +403,18 @@
 			]
 		},
 		{
+			"Name": "ControlFlows",
+			"Enabled": true
+		},
+		{
+			"Name": "Iris",
+			"Enabled": true
+		},
+		{
+			"Name": "MobilePatchingUtils",
+			"Enabled": false
+		},
+		{
 			"Name": "RuntimeFilesDownloader",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/e7e6df6d6e9c46f0ae35163eab67ff9a"
@@ -412,24 +434,16 @@
 			"Enabled": true
 		},
 		{
-			"Name": "ControlFlows",
-			"Enabled": true
-		},
-		{
-			"Name": "ChunkDownloader",
-			"Enabled": false
-		},
-		{
-			"Name": "Iris",
-			"Enabled": true
-		},
-		{
-			"Name": "MobilePatchingUtils",
-			"Enabled": false
-		},
-		{
 			"Name": "LocationServicesBPLibrary",
 			"Enabled": false
+		},
+		{
+			"Name": "PlasticSourceControl",
+			"Enabled": false
+		},
+		{
+			"Name": "HTTPChunkInstaller",
+			"Enabled": true
 		}
 	]
 }
