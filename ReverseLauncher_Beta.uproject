@@ -444,6 +444,10 @@
 		{
 			"Name": "HTTPChunkInstaller",
 			"Enabled": true
+		},
+		{
+			"Name": "WebBrowserWidget",
+			"Enabled": true
 		}
 	]
 }
