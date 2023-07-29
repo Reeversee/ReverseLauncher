@@ -449,5 +449,11 @@
 			"Name": "WebBrowserWidget",
 			"Enabled": true
 		}
+	],
+	"TargetPlatforms": [
+		"Android",
+		"Linux",
+		"LinuxArm64",
+		"Windows"
 	]
 }
